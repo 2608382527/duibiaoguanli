@@ -1,0 +1,709 @@
+2024-06-05 16:07:46.746  INFO 18524 --- [restartedMain] com.ServerApplication                    : Starting ServerApplication on longlong with PID 18524 (C:\Users\龙龙\Desktop\power_system\enroll-online-edu-sys\target\classes started by 龙龙 in C:\Users\龙龙\Desktop\power_system\enroll-online-edu-sys)
+2024-06-05 16:07:46.754  INFO 18524 --- [restartedMain] com.ServerApplication                    : The following profiles are active: dev
+2024-06-05 16:07:46.802  INFO 18524 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in D:\Maven\maven-repository\com\sun\xml\bind\jaxb-impl\2.1\jaxb-impl-2.1.jar referenced one or more files that do not exist: file:/D:/Maven/maven-repository/com/sun/xml/bind/jaxb-impl/2.1/jaxb-api.jar,file:/D:/Maven/maven-repository/com/sun/xml/bind/jaxb-impl/2.1/activation.jar,file:/D:/Maven/maven-repository/com/sun/xml/bind/jaxb-impl/2.1/jsr173_1.0_api.jar,file:/D:/Maven/maven-repository/com/sun/xml/bind/jaxb-impl/2.1/jaxb1-impl.jar
+2024-06-05 16:07:46.803  INFO 18524 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-06-05 16:07:46.808  INFO 18524 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-06-05 16:07:52.066  INFO 18524 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2024-06-05 16:07:52.070  INFO 18524 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-06-05 16:07:53.442  INFO 18524 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1346ms. Found 0 Redis repository interfaces.
+2024-06-05 16:07:54.399  INFO 18524 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'shiroConfig' of type [com.web.config.ShiroConfig$$EnhancerBySpringCGLIB$$33734713] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-05 16:07:54.444  INFO 18524 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'sessionManager' of type [org.apache.shiro.web.session.mgt.DefaultWebSessionManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-05 16:07:54.854  INFO 18524 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-05 16:07:54.881  INFO 18524 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-05 16:07:55.447  INFO 18524 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-06-05 16:07:55.456  INFO 18524 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-06-05 16:07:55.456  INFO 18524 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.35]
+2024-06-05 16:07:55.553  INFO 18524 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-06-05 16:07:55.553  INFO 18524 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 8744 ms
+2024-06-05 16:07:55.675 DEBUG 18524 --- [restartedMain] o.springframework.web.filter.CorsFilter  : Filter 'corsFilter' configured for use
+2024-06-05 16:07:56.797  INFO 18524 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2024-06-05 16:07:56.828 DEBUG 18524 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 4 ResponseBodyAdvice
+2024-06-05 16:07:56.899 DEBUG 18524 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 74 mappings in 'requestMappingHandlerMapping'
+2024-06-05 16:07:56.961 DEBUG 18524 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**, /static/**, /pic/**] in 'resourceHandlerMapping'
+2024-06-05 16:07:56.979 DEBUG 18524 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 4 ResponseBodyAdvice
+2024-06-05 16:07:58.275  INFO 18524 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-06-05 16:07:58.319  INFO 18524 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-06-05 16:07:58.329  INFO 18524 --- [restartedMain] com.ServerApplication                    : Started ServerApplication in 12.089 seconds (JVM running for 13.418)
+2024-06-05 16:08:11.195  INFO 18524 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-05 16:08:11.195  INFO 18524 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-06-05 16:08:11.196 DEBUG 18524 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2024-06-05 16:08:11.208 DEBUG 18524 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2024-06-05 16:08:11.208  INFO 18524 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 12 ms
+2024-06-05 16:08:11.224  INFO 18524 --- [http-nio-8080-exec-1] a.s.s.m.AbstractValidatingSessionManager : Enabling session validation scheduler...
+2024-06-05 16:08:11.235 DEBUG 18524 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/login.html", parameters={}
+2024-06-05 16:08:11.240 DEBUG 18524 --- [http-nio-8080-exec-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/static/", "classpath:/views/", "file:/root/workspace/fileimg/", "/"]
+2024-06-05 16:08:11.277 DEBUG 18524 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-05 16:08:11.352 DEBUG 18524 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/css/bootstrap.min.css", parameters={}
+2024-06-05 16:08:11.353 DEBUG 18524 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/css/font-awesome.min.css", parameters={}
+2024-06-05 16:08:11.355 DEBUG 18524 --- [http-nio-8080-exec-3] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/static/", "classpath:/views/", "file:/root/workspace/fileimg/", "/"]
+2024-06-05 16:08:11.357 DEBUG 18524 --- [http-nio-8080-exec-6] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/static/", "classpath:/views/", "file:/root/workspace/fileimg/", "/"]
+2024-06-05 16:08:11.357 DEBUG 18524 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/css/AdminLTE.min.css", parameters={}
+2024-06-05 16:08:11.358 DEBUG 18524 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/css/all-skins.min.css", parameters={}
+2024-06-05 16:08:11.359 DEBUG 18524 --- [http-nio-8080-exec-10] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/static/", "classpath:/views/", "file:/root/workspace/fileimg/", "/"]
+2024-06-05 16:08:11.361 DEBUG 18524 --- [http-nio-8080-exec-4] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/static/", "classpath:/views/", "file:/root/workspace/fileimg/", "/"]
+2024-06-05 16:08:11.361 DEBUG 18524 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/css/main.css", parameters={}
+2024-06-05 16:08:11.361 DEBUG 18524 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/js/jquery.min.js", parameters={}
+2024-06-05 16:08:11.362 DEBUG 18524 --- [http-nio-8080-exec-7] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/static/", "classpath:/views/", "file:/root/workspace/fileimg/", "/"]
+2024-06-05 16:08:11.362 DEBUG 18524 --- [http-nio-8080-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/static/", "classpath:/views/", "file:/root/workspace/fileimg/", "/"]
+2024-06-05 16:08:11.372 DEBUG 18524 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-05 16:08:11.372 DEBUG 18524 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-05 16:08:11.373 DEBUG 18524 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-05 16:08:11.374 DEBUG 18524 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-05 16:08:11.375 DEBUG 18524 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-05 16:08:11.378 DEBUG 18524 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/js/router.js", parameters={}
+2024-06-05 16:08:11.378 DEBUG 18524 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/js/bootstrap.min.js", parameters={}
+2024-06-05 16:08:11.378 DEBUG 18524 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/js/vue.min.js", parameters={}
+2024-06-05 16:08:11.378 DEBUG 18524 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/plugins/layer/layer.js", parameters={}
+2024-06-05 16:08:11.379 DEBUG 18524 --- [http-nio-8080-exec-8] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/static/", "classpath:/views/", "file:/root/workspace/fileimg/", "/"]
+2024-06-05 16:08:11.379 DEBUG 18524 --- [http-nio-8080-exec-5] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/static/", "classpath:/views/", "file:/root/workspace/fileimg/", "/"]
+2024-06-05 16:08:11.379 DEBUG 18524 --- [http-nio-8080-exec-9] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/static/", "classpath:/views/", "file:/root/workspace/fileimg/", "/"]
+2024-06-05 16:08:11.379 DEBUG 18524 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/js/app.js", parameters={}
+2024-06-05 16:08:11.379 DEBUG 18524 --- [http-nio-8080-exec-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/static/", "classpath:/views/", "file:/root/workspace/fileimg/", "/"]
+2024-06-05 16:08:11.380 DEBUG 18524 --- [http-nio-8080-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/static/", "classpath:/views/", "file:/root/workspace/fileimg/", "/"]
+2024-06-05 16:08:11.402 DEBUG 18524 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-05 16:08:11.402 DEBUG 18524 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-05 16:08:11.405 DEBUG 18524 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/js/admin/components.js", parameters={}
+2024-06-05 16:08:11.406 DEBUG 18524 --- [http-nio-8080-exec-6] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/static/", "classpath:/views/", "file:/root/workspace/fileimg/", "/"]
+2024-06-05 16:08:11.412 DEBUG 18524 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-05 16:08:11.415 DEBUG 18524 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-05 16:08:11.423 DEBUG 18524 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-05 16:08:11.427 DEBUG 18524 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-05 16:08:11.432 DEBUG 18524 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-05 16:08:12.318 DEBUG 18524 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/plugins/layer/skin/default/layer.css?v=3.0.11110", parameters={masked}
+2024-06-05 16:08:12.319 DEBUG 18524 --- [http-nio-8080-exec-3] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/static/", "classpath:/views/", "file:/root/workspace/fileimg/", "/"]
+2024-06-05 16:08:12.327 DEBUG 18524 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/captcha.jpg", parameters={}
+2024-06-05 16:08:12.327 DEBUG 18524 --- [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.modules.sys.controller.SysLoginController#captcha(HttpServletResponse)
+2024-06-05 16:08:12.334 DEBUG 18524 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-05 16:08:12.344  INFO 18524 --- [http-nio-8080-exec-4] com.modules.sys.aop.AopLog               : URL : http://localhost:8080/captcha.jpg
+2024-06-05 16:08:12.344  INFO 18524 --- [http-nio-8080-exec-4] com.modules.sys.aop.AopLog               : HTTP方法 : GET
+2024-06-05 16:08:12.344  INFO 18524 --- [http-nio-8080-exec-4] com.modules.sys.aop.AopLog               : IP地址 : 0:0:0:0:0:0:0:1
+2024-06-05 16:08:12.347  INFO 18524 --- [http-nio-8080-exec-4] com.modules.sys.aop.AopLog               : 类的方法 : com.modules.sys.controller.SysLoginController.captcha
+2024-06-05 16:08:12.347  INFO 18524 --- [http-nio-8080-exec-4] com.modules.sys.aop.AopLog               : 参数 : null
+2024-06-05 16:08:12.351 DEBUG 18524 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/fonts/glyphicons-halflings-regular.woff2", parameters={}
+2024-06-05 16:08:12.353 DEBUG 18524 --- [http-nio-8080-exec-10] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/static/", "classpath:/views/", "file:/root/workspace/fileimg/", "/"]
+2024-06-05 16:08:12.360 DEBUG 18524 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-05 16:08:12.771  INFO 18524 --- [http-nio-8080-exec-4] com.modules.sys.aop.AopLog               : 应答值 : null
+2024-06-05 16:08:12.772  INFO 18524 --- [http-nio-8080-exec-4] com.modules.sys.aop.AopLog               : 费时: 428ms
+2024-06-05 16:08:12.772 DEBUG 18524 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-05 16:08:13.060 DEBUG 18524 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/highLightTitle.png", parameters={}
+2024-06-05 16:08:13.060 DEBUG 18524 --- [http-nio-8080-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/static/", "classpath:/views/", "file:/root/workspace/fileimg/", "/"]
+2024-06-05 16:08:13.068 DEBUG 18524 --- [http-nio-8080-exec-2] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2024-06-05 16:08:13.068 DEBUG 18524 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2024-06-05 16:08:13.071 DEBUG 18524 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2024-06-05 16:08:13.073 DEBUG 18524 --- [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2024-06-05 16:08:13.096 DEBUG 18524 --- [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2024-06-05 16:08:13.098 DEBUG 18524 --- [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Wed Jun 05 16:08:13 CST 2024, status=404, error=Not Found, message=No message available,  (truncated)...]
+2024-06-05 16:08:13.146 DEBUG 18524 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2024-06-05 16:08:13.231 DEBUG 18524 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/favicon.ico", parameters={}
+2024-06-05 16:08:13.232 DEBUG 18524 --- [http-nio-8080-exec-9] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/static/", "classpath:/views/", "file:/root/workspace/fileimg/", "/"]
+2024-06-05 16:08:13.249 DEBUG 18524 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-05 16:08:29.416 DEBUG 18524 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : POST "/sys/loginSys", parameters={masked}
+2024-06-05 16:08:29.417 DEBUG 18524 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.modules.sys.controller.SysLoginController#stuLogin(String, String, String, Integer, HttpServletRequest)
+2024-06-05 16:08:29.431  INFO 18524 --- [http-nio-8080-exec-1] com.modules.sys.aop.AopLog               : URL : http://localhost:8080/sys/loginSys
+2024-06-05 16:08:29.432  INFO 18524 --- [http-nio-8080-exec-1] com.modules.sys.aop.AopLog               : HTTP方法 : POST
+2024-06-05 16:08:29.432  INFO 18524 --- [http-nio-8080-exec-1] com.modules.sys.aop.AopLog               : IP地址 : 0:0:0:0:0:0:0:1
+2024-06-05 16:08:29.432  INFO 18524 --- [http-nio-8080-exec-1] com.modules.sys.aop.AopLog               : 类的方法 : com.modules.sys.controller.SysLoginController.stuLogin
+2024-06-05 16:08:29.432  INFO 18524 --- [http-nio-8080-exec-1] com.modules.sys.aop.AopLog               : 参数 : null
+2024-06-05 16:08:29.625  INFO 18524 --- [http-nio-8080-exec-1] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2024-06-05 16:08:29.630 DEBUG 18524 --- [http-nio-8080-exec-1] c.modules.sys.dao.UserTbMapper.loginSys  : ==>  Preparing: select id, username, password, email, mobile, status, create_time from user_tb where username = ? 
+2024-06-05 16:08:29.656 DEBUG 18524 --- [http-nio-8080-exec-1] c.modules.sys.dao.UserTbMapper.loginSys  : ==> Parameters: root(String)
+2024-06-05 16:08:29.682 DEBUG 18524 --- [http-nio-8080-exec-1] c.modules.sys.dao.UserTbMapper.loginSys  : <==      Total: 1
+2024-06-05 16:08:29.684  INFO 18524 --- [http-nio-8080-exec-1] com.modules.sys.aop.AopLog               : 应答值 : {msg=用户类别不对!, code=500}
+2024-06-05 16:08:29.684  INFO 18524 --- [http-nio-8080-exec-1] com.modules.sys.aop.AopLog               : 费时: 253ms
+2024-06-05 16:08:29.687 DEBUG 18524 --- [http-nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/javascript, */*;q=0.01] and supported [application/json, application/*+json, application/json, application/*+json]
+2024-06-05 16:08:29.688 DEBUG 18524 --- [http-nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Writing [{msg=用户类别不对!, code=500}]
+2024-06-05 16:08:29.688 DEBUG 18524 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-05 16:08:29.698 DEBUG 18524 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/captcha.jpg?t=1717574909691", parameters={masked}
+2024-06-05 16:08:29.698 DEBUG 18524 --- [http-nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.modules.sys.controller.SysLoginController#captcha(HttpServletResponse)
+2024-06-05 16:08:29.698  INFO 18524 --- [http-nio-8080-exec-5] com.modules.sys.aop.AopLog               : URL : http://localhost:8080/captcha.jpg
+2024-06-05 16:08:29.699  INFO 18524 --- [http-nio-8080-exec-5] com.modules.sys.aop.AopLog               : HTTP方法 : GET
+2024-06-05 16:08:29.699  INFO 18524 --- [http-nio-8080-exec-5] com.modules.sys.aop.AopLog               : IP地址 : 0:0:0:0:0:0:0:1
+2024-06-05 16:08:29.699  INFO 18524 --- [http-nio-8080-exec-5] com.modules.sys.aop.AopLog               : 类的方法 : com.modules.sys.controller.SysLoginController.captcha
+2024-06-05 16:08:29.699  INFO 18524 --- [http-nio-8080-exec-5] com.modules.sys.aop.AopLog               : 参数 : t=1717574909691
+2024-06-05 16:08:29.702 DEBUG 18524 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/fonts/fontawesome-webfont.woff2?v=4.7.0", parameters={masked}
+2024-06-05 16:08:29.703 DEBUG 18524 --- [http-nio-8080-exec-7] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/static/", "classpath:/views/", "file:/root/workspace/fileimg/", "/"]
+2024-06-05 16:08:29.712 DEBUG 18524 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-05 16:08:29.712  INFO 18524 --- [http-nio-8080-exec-5] com.modules.sys.aop.AopLog               : 应答值 : null
+2024-06-05 16:08:29.714  INFO 18524 --- [http-nio-8080-exec-5] com.modules.sys.aop.AopLog               : 费时: 14ms
+2024-06-05 16:08:29.714 DEBUG 18524 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-05 16:08:36.039 DEBUG 18524 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/captcha.jpg?t=1717574916034", parameters={masked}
+2024-06-05 16:08:36.041 DEBUG 18524 --- [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.modules.sys.controller.SysLoginController#captcha(HttpServletResponse)
+2024-06-05 16:08:36.041  INFO 18524 --- [http-nio-8080-exec-6] com.modules.sys.aop.AopLog               : URL : http://localhost:8080/captcha.jpg
+2024-06-05 16:08:36.041  INFO 18524 --- [http-nio-8080-exec-6] com.modules.sys.aop.AopLog               : HTTP方法 : GET
+2024-06-05 16:08:36.041  INFO 18524 --- [http-nio-8080-exec-6] com.modules.sys.aop.AopLog               : IP地址 : 0:0:0:0:0:0:0:1
+2024-06-05 16:08:36.041  INFO 18524 --- [http-nio-8080-exec-6] com.modules.sys.aop.AopLog               : 类的方法 : com.modules.sys.controller.SysLoginController.captcha
+2024-06-05 16:08:36.041  INFO 18524 --- [http-nio-8080-exec-6] com.modules.sys.aop.AopLog               : 参数 : t=1717574916034
+2024-06-05 16:08:36.053  INFO 18524 --- [http-nio-8080-exec-6] com.modules.sys.aop.AopLog               : 应答值 : null
+2024-06-05 16:08:36.053  INFO 18524 --- [http-nio-8080-exec-6] com.modules.sys.aop.AopLog               : 费时: 12ms
+2024-06-05 16:08:36.053 DEBUG 18524 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-05 16:08:45.041 DEBUG 18524 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : POST "/sys/loginSys", parameters={masked}
+2024-06-05 16:08:45.042 DEBUG 18524 --- [http-nio-8080-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.modules.sys.controller.SysLoginController#stuLogin(String, String, String, Integer, HttpServletRequest)
+2024-06-05 16:08:45.043  INFO 18524 --- [http-nio-8080-exec-8] com.modules.sys.aop.AopLog               : URL : http://localhost:8080/sys/loginSys
+2024-06-05 16:08:45.043  INFO 18524 --- [http-nio-8080-exec-8] com.modules.sys.aop.AopLog               : HTTP方法 : POST
+2024-06-05 16:08:45.043  INFO 18524 --- [http-nio-8080-exec-8] com.modules.sys.aop.AopLog               : IP地址 : 0:0:0:0:0:0:0:1
+2024-06-05 16:08:45.043  INFO 18524 --- [http-nio-8080-exec-8] com.modules.sys.aop.AopLog               : 类的方法 : com.modules.sys.controller.SysLoginController.stuLogin
+2024-06-05 16:08:45.043  INFO 18524 --- [http-nio-8080-exec-8] com.modules.sys.aop.AopLog               : 参数 : null
+2024-06-05 16:08:45.044 DEBUG 18524 --- [http-nio-8080-exec-8] c.modules.sys.dao.UserTbMapper.loginSys  : ==>  Preparing: select id, username, password, email, mobile, status, create_time from user_tb where username = ? 
+2024-06-05 16:08:45.045 DEBUG 18524 --- [http-nio-8080-exec-8] c.modules.sys.dao.UserTbMapper.loginSys  : ==> Parameters: lingdao(String)
+2024-06-05 16:08:45.047 DEBUG 18524 --- [http-nio-8080-exec-8] c.modules.sys.dao.UserTbMapper.loginSys  : <==      Total: 1
+2024-06-05 16:08:45.071  INFO 18524 --- [http-nio-8080-exec-8] c.m.sys.controller.SysLoginController    : ========================admin===============:com.modules.sys.entity.UserTb@494257fd,systoken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzM4NCJ9.eyJhdWQiOiI3IiwiZXhwIjoxNzE4MTc5NzI1fQ.gp4BstSq3Ye-P3OsLj8ptnEmq_NsZLjbYX5HzgweMsdSJdfcv9Dv4D8pVLwMjG-8
+2024-06-05 16:08:45.071  INFO 18524 --- [http-nio-8080-exec-8] com.modules.sys.aop.AopLog               : 应答值 : {types=2, code=0}
+2024-06-05 16:08:45.071  INFO 18524 --- [http-nio-8080-exec-8] com.modules.sys.aop.AopLog               : 费时: 28ms
+2024-06-05 16:08:45.071 DEBUG 18524 --- [http-nio-8080-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/javascript, */*;q=0.01] and supported [application/json, application/*+json, application/json, application/*+json]
+2024-06-05 16:08:45.072 DEBUG 18524 --- [http-nio-8080-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Writing [{types=2, code=0}]
+2024-06-05 16:08:45.072 DEBUG 18524 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-05 16:08:45.095 DEBUG 18524 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/sys/indexAdminView", parameters={}
+2024-06-05 16:08:45.095 DEBUG 18524 --- [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.modules.sys.controller.ViewController#indexAdminView()
+2024-06-05 16:08:45.095  INFO 18524 --- [http-nio-8080-exec-3] com.modules.sys.aop.AopLog               : URL : http://localhost:8080/sys/indexAdminView
+2024-06-05 16:08:45.095  INFO 18524 --- [http-nio-8080-exec-3] com.modules.sys.aop.AopLog               : HTTP方法 : GET
+2024-06-05 16:08:45.095  INFO 18524 --- [http-nio-8080-exec-3] com.modules.sys.aop.AopLog               : IP地址 : 0:0:0:0:0:0:0:1
+2024-06-05 16:08:45.095  INFO 18524 --- [http-nio-8080-exec-3] com.modules.sys.aop.AopLog               : 类的方法 : com.modules.sys.controller.ViewController.indexAdminView
+2024-06-05 16:08:45.095  INFO 18524 --- [http-nio-8080-exec-3] com.modules.sys.aop.AopLog               : 参数 : null
+2024-06-05 16:08:45.099  INFO 18524 --- [http-nio-8080-exec-3] com.modules.sys.aop.AopLog               : 应答值 : /indexAdmin.html
+2024-06-05 16:08:45.099  INFO 18524 --- [http-nio-8080-exec-3] com.modules.sys.aop.AopLog               : 费时: 4ms
+2024-06-05 16:08:45.108 DEBUG 18524 --- [http-nio-8080-exec-3] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.7, */*;q=0.8]
+2024-06-05 16:08:45.109 DEBUG 18524 --- [http-nio-8080-exec-3] o.s.w.servlet.view.InternalResourceView  : View name '/indexAdmin.html', model {}
+2024-06-05 16:08:45.109 DEBUG 18524 --- [http-nio-8080-exec-3] o.s.w.servlet.view.InternalResourceView  : Forwarding to [/indexAdmin.html]
+2024-06-05 16:08:45.110 DEBUG 18524 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : "FORWARD" dispatch for GET "/indexAdmin.html", parameters={}
+2024-06-05 16:08:45.111 DEBUG 18524 --- [http-nio-8080-exec-3] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/static/", "classpath:/views/", "file:/root/workspace/fileimg/", "/"]
+2024-06-05 16:08:45.138 DEBUG 18524 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Exiting from "FORWARD" dispatch, status 200
+2024-06-05 16:08:45.139 DEBUG 18524 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-05 16:08:45.187 DEBUG 18524 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/layui/css/layui.css", parameters={}
+2024-06-05 16:08:45.187 DEBUG 18524 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/js/router.js", parameters={}
+2024-06-05 16:08:45.187 DEBUG 18524 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/js/vue.min.js", parameters={}
+2024-06-05 16:08:45.187 DEBUG 18524 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/layuiadmin/style/admin.css", parameters={}
+2024-06-05 16:08:45.188 DEBUG 18524 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/js/jquery-3.7.0.min.js", parameters={}
+2024-06-05 16:08:45.188 DEBUG 18524 --- [http-nio-8080-exec-9] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/static/", "classpath:/views/", "file:/root/workspace/fileimg/", "/"]
+2024-06-05 16:08:45.188 DEBUG 18524 --- [http-nio-8080-exec-4] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/static/", "classpath:/views/", "file:/root/workspace/fileimg/", "/"]
+2024-06-05 16:08:45.188 DEBUG 18524 --- [http-nio-8080-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/static/", "classpath:/views/", "file:/root/workspace/fileimg/", "/"]
+2024-06-05 16:08:45.188 DEBUG 18524 --- [http-nio-8080-exec-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/static/", "classpath:/views/", "file:/root/workspace/fileimg/", "/"]
+2024-06-05 16:08:45.188 DEBUG 18524 --- [http-nio-8080-exec-10] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/static/", "classpath:/views/", "file:/root/workspace/fileimg/", "/"]
+2024-06-05 16:08:45.188 DEBUG 18524 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/js/bootstrap.min.js", parameters={}
+2024-06-05 16:08:45.190 DEBUG 18524 --- [http-nio-8080-exec-7] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/static/", "classpath:/views/", "file:/root/workspace/fileimg/", "/"]
+2024-06-05 16:08:45.195 DEBUG 18524 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-05 16:08:45.196 DEBUG 18524 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-05 16:08:45.197 DEBUG 18524 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-05 16:08:45.199 DEBUG 18524 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/plugins/layer/layer.js", parameters={}
+2024-06-05 16:08:45.199 DEBUG 18524 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/js/app.js", parameters={}
+2024-06-05 16:08:45.199 DEBUG 18524 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/plugins/bootstrap-table/bootstrap-table.min.js", parameters={}
+2024-06-05 16:08:45.200 DEBUG 18524 --- [http-nio-8080-exec-8] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/static/", "classpath:/views/", "file:/root/workspace/fileimg/", "/"]
+2024-06-05 16:08:45.200 DEBUG 18524 --- [http-nio-8080-exec-5] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/static/", "classpath:/views/", "file:/root/workspace/fileimg/", "/"]
+2024-06-05 16:08:45.200 DEBUG 18524 --- [http-nio-8080-exec-6] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/static/", "classpath:/views/", "file:/root/workspace/fileimg/", "/"]
+2024-06-05 16:08:45.204 DEBUG 18524 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-05 16:08:45.204 DEBUG 18524 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-05 16:08:45.204 DEBUG 18524 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-05 16:08:45.207 DEBUG 18524 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-05 16:08:45.208 DEBUG 18524 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/js/admin/common.js", parameters={}
+2024-06-05 16:08:45.209 DEBUG 18524 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/plugins/jqfileupload/js/vendor/jquery.ui.widget.js", parameters={}
+2024-06-05 16:08:45.209 DEBUG 18524 --- [http-nio-8080-exec-3] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/static/", "classpath:/views/", "file:/root/workspace/fileimg/", "/"]
+2024-06-05 16:08:45.210 DEBUG 18524 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/plugins/jqfileupload/js/jquery.fileupload.js", parameters={}
+2024-06-05 16:08:45.210 DEBUG 18524 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/layui/layui.js", parameters={}
+2024-06-05 16:08:45.210 DEBUG 18524 --- [http-nio-8080-exec-9] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/static/", "classpath:/views/", "file:/root/workspace/fileimg/", "/"]
+2024-06-05 16:08:45.210 DEBUG 18524 --- [http-nio-8080-exec-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/static/", "classpath:/views/", "file:/root/workspace/fileimg/", "/"]
+2024-06-05 16:08:45.211 DEBUG 18524 --- [http-nio-8080-exec-7] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/static/", "classpath:/views/", "file:/root/workspace/fileimg/", "/"]
+2024-06-05 16:08:45.229 DEBUG 18524 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-05 16:08:45.235 DEBUG 18524 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-05 16:08:45.236 DEBUG 18524 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-05 16:08:45.239 DEBUG 18524 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-05 16:08:45.243 DEBUG 18524 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-05 16:08:45.245 DEBUG 18524 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-05 16:08:45.462 DEBUG 18524 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/sys/enterpriceView", parameters={}
+2024-06-05 16:08:45.462 DEBUG 18524 --- [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.modules.sys.controller.ViewController#enterpriceView()
+2024-06-05 16:08:45.462  INFO 18524 --- [http-nio-8080-exec-4] com.modules.sys.aop.AopLog               : URL : http://localhost:8080/sys/enterpriceView
+2024-06-05 16:08:45.462  INFO 18524 --- [http-nio-8080-exec-4] com.modules.sys.aop.AopLog               : HTTP方法 : GET
+2024-06-05 16:08:45.462  INFO 18524 --- [http-nio-8080-exec-4] com.modules.sys.aop.AopLog               : IP地址 : 0:0:0:0:0:0:0:1
+2024-06-05 16:08:45.462  INFO 18524 --- [http-nio-8080-exec-4] com.modules.sys.aop.AopLog               : 类的方法 : com.modules.sys.controller.ViewController.enterpriceView
+2024-06-05 16:08:45.462  INFO 18524 --- [http-nio-8080-exec-4] com.modules.sys.aop.AopLog               : 参数 : null
+2024-06-05 16:08:45.463  INFO 18524 --- [http-nio-8080-exec-4] com.modules.sys.aop.AopLog               : 应答值 : /sys/enterpriceDesView.html
+2024-06-05 16:08:45.463  INFO 18524 --- [http-nio-8080-exec-4] com.modules.sys.aop.AopLog               : 费时: 1ms
+2024-06-05 16:08:45.468 DEBUG 18524 --- [http-nio-8080-exec-4] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.7, */*;q=0.8]
+2024-06-05 16:08:45.468 DEBUG 18524 --- [http-nio-8080-exec-4] o.s.w.servlet.view.InternalResourceView  : View name '/sys/enterpriceDesView.html', model {}
+2024-06-05 16:08:45.468 DEBUG 18524 --- [http-nio-8080-exec-4] o.s.w.servlet.view.InternalResourceView  : Forwarding to [/sys/enterpriceDesView.html]
+2024-06-05 16:08:45.468 DEBUG 18524 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : "FORWARD" dispatch for GET "/sys/enterpriceDesView.html", parameters={}
+2024-06-05 16:08:45.470 DEBUG 18524 --- [http-nio-8080-exec-4] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/static/", "classpath:/views/", "file:/root/workspace/fileimg/", "/"]
+2024-06-05 16:08:45.491 DEBUG 18524 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/layui/font/iconfont.woff2?v=250", parameters={masked}
+2024-06-05 16:08:45.492 DEBUG 18524 --- [http-nio-8080-exec-8] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/static/", "classpath:/views/", "file:/root/workspace/fileimg/", "/"]
+2024-06-05 16:08:45.504 DEBUG 18524 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-05 16:08:45.516 DEBUG 18524 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Exiting from "FORWARD" dispatch, status 200
+2024-06-05 16:08:45.516 DEBUG 18524 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-05 16:08:45.547 DEBUG 18524 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/css/bootstrap.min.css", parameters={}
+2024-06-05 16:08:45.548 DEBUG 18524 --- [http-nio-8080-exec-5] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/static/", "classpath:/views/", "file:/root/workspace/fileimg/", "/"]
+2024-06-05 16:08:45.548 DEBUG 18524 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/css/font-awesome.min.css", parameters={}
+2024-06-05 16:08:45.548 DEBUG 18524 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/css/AdminLTE.min.css", parameters={}
+2024-06-05 16:08:45.549 DEBUG 18524 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/css/all-skins.min.css", parameters={}
+2024-06-05 16:08:45.550 DEBUG 18524 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/plugins/bootstrap-table/bootstrap-table.min.css", parameters={}
+2024-06-05 16:08:45.550 DEBUG 18524 --- [http-nio-8080-exec-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/static/", "classpath:/views/", "file:/root/workspace/fileimg/", "/"]
+2024-06-05 16:08:45.550 DEBUG 18524 --- [http-nio-8080-exec-10] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/static/", "classpath:/views/", "file:/root/workspace/fileimg/", "/"]
+2024-06-05 16:08:45.550 DEBUG 18524 --- [http-nio-8080-exec-3] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/static/", "classpath:/views/", "file:/root/workspace/fileimg/", "/"]
+2024-06-05 16:08:45.551 DEBUG 18524 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/css/main.css", parameters={}
+2024-06-05 16:08:45.551 DEBUG 18524 --- [http-nio-8080-exec-9] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/static/", "classpath:/views/", "file:/root/workspace/fileimg/", "/"]
+2024-06-05 16:08:45.551 DEBUG 18524 --- [http-nio-8080-exec-7] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/static/", "classpath:/views/", "file:/root/workspace/fileimg/", "/"]
+2024-06-05 16:08:45.557 DEBUG 18524 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-05 16:08:45.557 DEBUG 18524 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-05 16:08:45.557 DEBUG 18524 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-05 16:08:45.557 DEBUG 18524 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-05 16:08:45.557 DEBUG 18524 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-05 16:08:45.559 DEBUG 18524 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/js/vue.js", parameters={}
+2024-06-05 16:08:45.560 DEBUG 18524 --- [http-nio-8080-exec-6] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/static/", "classpath:/views/", "file:/root/workspace/fileimg/", "/"]
+2024-06-05 16:08:45.560 DEBUG 18524 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/js/bootstrap.min.js", parameters={}
+2024-06-05 16:08:45.560 DEBUG 18524 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/js/router.js", parameters={}
+2024-06-05 16:08:45.560 DEBUG 18524 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/js/vue.min.js", parameters={}
+2024-06-05 16:08:45.560 DEBUG 18524 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/js/jquery.min.js", parameters={}
+2024-06-05 16:08:45.561 DEBUG 18524 --- [http-nio-8080-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/static/", "classpath:/views/", "file:/root/workspace/fileimg/", "/"]
+2024-06-05 16:08:45.561 DEBUG 18524 --- [http-nio-8080-exec-10] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/static/", "classpath:/views/", "file:/root/workspace/fileimg/", "/"]
+2024-06-05 16:08:45.561 DEBUG 18524 --- [http-nio-8080-exec-4] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/static/", "classpath:/views/", "file:/root/workspace/fileimg/", "/"]
+2024-06-05 16:08:45.561 DEBUG 18524 --- [http-nio-8080-exec-8] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/static/", "classpath:/views/", "file:/root/workspace/fileimg/", "/"]
+2024-06-05 16:08:45.565 DEBUG 18524 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-05 16:08:45.568 DEBUG 18524 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-05 16:08:45.569 DEBUG 18524 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-05 16:08:45.569 DEBUG 18524 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-05 16:08:45.568 DEBUG 18524 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/plugins/layer/layer.js", parameters={}
+2024-06-05 16:08:45.569 DEBUG 18524 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-05 16:08:45.570 DEBUG 18524 --- [http-nio-8080-exec-5] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/static/", "classpath:/views/", "file:/root/workspace/fileimg/", "/"]
+2024-06-05 16:08:45.572 DEBUG 18524 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/plugins/bootstrap-table/bootstrap-table.min.js", parameters={}
+2024-06-05 16:08:45.572 DEBUG 18524 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/js/app.js", parameters={}
+2024-06-05 16:08:45.574 DEBUG 18524 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/js/admin/common.js", parameters={}
+2024-06-05 16:08:45.574 DEBUG 18524 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/plugins/jqfileupload/js/vendor/jquery.ui.widget.js", parameters={}
+2024-06-05 16:08:45.574 DEBUG 18524 --- [http-nio-8080-exec-3] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/static/", "classpath:/views/", "file:/root/workspace/fileimg/", "/"]
+2024-06-05 16:08:45.574 DEBUG 18524 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-05 16:08:45.575 DEBUG 18524 --- [http-nio-8080-exec-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/static/", "classpath:/views/", "file:/root/workspace/fileimg/", "/"]
+2024-06-05 16:08:45.575 DEBUG 18524 --- [http-nio-8080-exec-7] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/static/", "classpath:/views/", "file:/root/workspace/fileimg/", "/"]
+2024-06-05 16:08:45.575 DEBUG 18524 --- [http-nio-8080-exec-9] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/static/", "classpath:/views/", "file:/root/workspace/fileimg/", "/"]
+2024-06-05 16:08:45.579 DEBUG 18524 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-05 16:08:45.579 DEBUG 18524 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-05 16:08:45.579 DEBUG 18524 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-05 16:08:45.580 DEBUG 18524 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/plugins/jqfileupload/js/jquery.fileupload.js", parameters={}
+2024-06-05 16:08:45.581 DEBUG 18524 --- [http-nio-8080-exec-4] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/static/", "classpath:/views/", "file:/root/workspace/fileimg/", "/"]
+2024-06-05 16:08:45.581 DEBUG 18524 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-05 16:08:45.584 DEBUG 18524 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/js/bootstrap/bootstrap-table-zh-CN.js", parameters={}
+2024-06-05 16:08:45.585 DEBUG 18524 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/js/admin/sys/enterprice.js", parameters={}
+2024-06-05 16:08:45.585 DEBUG 18524 --- [http-nio-8080-exec-8] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/static/", "classpath:/views/", "file:/root/workspace/fileimg/", "/"]
+2024-06-05 16:08:45.585 DEBUG 18524 --- [http-nio-8080-exec-10] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/static/", "classpath:/views/", "file:/root/workspace/fileimg/", "/"]
+2024-06-05 16:08:45.586 DEBUG 18524 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-05 16:08:45.598 DEBUG 18524 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-05 16:08:45.599 DEBUG 18524 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-05 16:08:45.624 DEBUG 18524 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-05 16:08:45.649 DEBUG 18524 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/plugins/layer/skin/default/layer.css?v=3.0.11110", parameters={masked}
+2024-06-05 16:08:45.650 DEBUG 18524 --- [http-nio-8080-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/static/", "classpath:/views/", "file:/root/workspace/fileimg/", "/"]
+2024-06-05 16:08:45.652 DEBUG 18524 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-05 16:08:45.663 DEBUG 18524 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/plugins/layer/skin/default/layer.css?v=3.0.11110", parameters={masked}
+2024-06-05 16:08:45.664 DEBUG 18524 --- [http-nio-8080-exec-5] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/static/", "classpath:/views/", "file:/root/workspace/fileimg/", "/"]
+2024-06-05 16:08:45.667 DEBUG 18524 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-05 16:08:45.668 DEBUG 18524 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/layui/lay/modules/laytpl.js", parameters={}
+2024-06-05 16:08:45.669 DEBUG 18524 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/lib/extend/tablePlug/optimizeSelectOption/optimizeSelectOption.js", parameters={}
+2024-06-05 16:08:45.669 DEBUG 18524 --- [http-nio-8080-exec-9] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/static/", "classpath:/views/", "file:/root/workspace/fileimg/", "/"]
+2024-06-05 16:08:45.669 DEBUG 18524 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/layuiadmin/lib/index.js", parameters={}
+2024-06-05 16:08:45.669 DEBUG 18524 --- [http-nio-8080-exec-3] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/static/", "classpath:/views/", "file:/root/workspace/fileimg/", "/"]
+2024-06-05 16:08:45.670 DEBUG 18524 --- [http-nio-8080-exec-7] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/static/", "classpath:/views/", "file:/root/workspace/fileimg/", "/"]
+2024-06-05 16:08:45.672 DEBUG 18524 --- [http-nio-8080-exec-3] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2024-06-05 16:08:45.672 DEBUG 18524 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2024-06-05 16:08:45.673 DEBUG 18524 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2024-06-05 16:08:45.673 DEBUG 18524 --- [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2024-06-05 16:08:45.673 DEBUG 18524 --- [http-nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2024-06-05 16:08:45.673 DEBUG 18524 --- [http-nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Wed Jun 05 16:08:45 CST 2024, status=404, error=Not Found, message=No message available,  (truncated)...]
+2024-06-05 16:08:45.674 DEBUG 18524 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2024-06-05 16:08:45.687 DEBUG 18524 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/sys/enterpriceView", parameters={}
+2024-06-05 16:08:45.687 DEBUG 18524 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.modules.sys.controller.ViewController#enterpriceView()
+2024-06-05 16:08:45.688  INFO 18524 --- [http-nio-8080-exec-1] com.modules.sys.aop.AopLog               : URL : http://localhost:8080/sys/enterpriceView
+2024-06-05 16:08:45.688  INFO 18524 --- [http-nio-8080-exec-1] com.modules.sys.aop.AopLog               : HTTP方法 : GET
+2024-06-05 16:08:45.688  INFO 18524 --- [http-nio-8080-exec-1] com.modules.sys.aop.AopLog               : IP地址 : 0:0:0:0:0:0:0:1
+2024-06-05 16:08:45.688  INFO 18524 --- [http-nio-8080-exec-1] com.modules.sys.aop.AopLog               : 类的方法 : com.modules.sys.controller.ViewController.enterpriceView
+2024-06-05 16:08:45.688  INFO 18524 --- [http-nio-8080-exec-1] com.modules.sys.aop.AopLog               : 参数 : null
+2024-06-05 16:08:45.688  INFO 18524 --- [http-nio-8080-exec-1] com.modules.sys.aop.AopLog               : 应答值 : /sys/enterpriceDesView.html
+2024-06-05 16:08:45.688  INFO 18524 --- [http-nio-8080-exec-1] com.modules.sys.aop.AopLog               : 费时: 0ms
+2024-06-05 16:08:45.689 DEBUG 18524 --- [http-nio-8080-exec-1] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.7, */*;q=0.8]
+2024-06-05 16:08:45.689 DEBUG 18524 --- [http-nio-8080-exec-1] o.s.w.servlet.view.InternalResourceView  : View name '/sys/enterpriceDesView.html', model {}
+2024-06-05 16:08:45.689 DEBUG 18524 --- [http-nio-8080-exec-1] o.s.w.servlet.view.InternalResourceView  : Forwarding to [/sys/enterpriceDesView.html]
+2024-06-05 16:08:45.689 DEBUG 18524 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : "FORWARD" dispatch for GET "/sys/enterpriceDesView.html", parameters={}
+2024-06-05 16:08:45.690 DEBUG 18524 --- [http-nio-8080-exec-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/static/", "classpath:/views/", "file:/root/workspace/fileimg/", "/"]
+2024-06-05 16:08:45.692 DEBUG 18524 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-05 16:08:45.693 DEBUG 18524 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Exiting from "FORWARD" dispatch, status 200
+2024-06-05 16:08:45.694 DEBUG 18524 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-05 16:08:45.696 DEBUG 18524 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-05 16:08:45.737 DEBUG 18524 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/css/bootstrap.min.css", parameters={}
+2024-06-05 16:08:45.737 DEBUG 18524 --- [http-nio-8080-exec-4] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/static/", "classpath:/views/", "file:/root/workspace/fileimg/", "/"]
+2024-06-05 16:08:45.741 DEBUG 18524 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/css/AdminLTE.min.css", parameters={}
+2024-06-05 16:08:45.741 DEBUG 18524 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/css/font-awesome.min.css", parameters={}
+2024-06-05 16:08:45.742 DEBUG 18524 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/css/all-skins.min.css", parameters={}
+2024-06-05 16:08:45.742 DEBUG 18524 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/plugins/bootstrap-table/bootstrap-table.min.css", parameters={}
+2024-06-05 16:08:45.742 DEBUG 18524 --- [http-nio-8080-exec-6] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/static/", "classpath:/views/", "file:/root/workspace/fileimg/", "/"]
+2024-06-05 16:08:45.743 DEBUG 18524 --- [http-nio-8080-exec-8] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/static/", "classpath:/views/", "file:/root/workspace/fileimg/", "/"]
+2024-06-05 16:08:45.743 DEBUG 18524 --- [http-nio-8080-exec-10] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/static/", "classpath:/views/", "file:/root/workspace/fileimg/", "/"]
+2024-06-05 16:08:45.743 DEBUG 18524 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-05 16:08:45.743 DEBUG 18524 --- [http-nio-8080-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/static/", "classpath:/views/", "file:/root/workspace/fileimg/", "/"]
+2024-06-05 16:08:45.743 DEBUG 18524 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/css/main.css", parameters={}
+2024-06-05 16:08:45.744 DEBUG 18524 --- [http-nio-8080-exec-5] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/static/", "classpath:/views/", "file:/root/workspace/fileimg/", "/"]
+2024-06-05 16:08:45.746 DEBUG 18524 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-05 16:08:45.747 DEBUG 18524 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-05 16:08:45.748 DEBUG 18524 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-05 16:08:45.748 DEBUG 18524 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-05 16:08:45.749 DEBUG 18524 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-05 16:08:45.753 DEBUG 18524 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/js/vue.js", parameters={}
+2024-06-05 16:08:45.753 DEBUG 18524 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/js/vue.min.js", parameters={}
+2024-06-05 16:08:45.753 DEBUG 18524 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/js/jquery.min.js", parameters={}
+2024-06-05 16:08:45.753 DEBUG 18524 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/js/router.js", parameters={}
+2024-06-05 16:08:45.755 DEBUG 18524 --- [http-nio-8080-exec-3] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/static/", "classpath:/views/", "file:/root/workspace/fileimg/", "/"]
+2024-06-05 16:08:45.755 DEBUG 18524 --- [http-nio-8080-exec-9] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/static/", "classpath:/views/", "file:/root/workspace/fileimg/", "/"]
+2024-06-05 16:08:45.755 DEBUG 18524 --- [http-nio-8080-exec-7] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/static/", "classpath:/views/", "file:/root/workspace/fileimg/", "/"]
+2024-06-05 16:08:45.755 DEBUG 18524 --- [http-nio-8080-exec-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/static/", "classpath:/views/", "file:/root/workspace/fileimg/", "/"]
+2024-06-05 16:08:45.755 DEBUG 18524 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/js/bootstrap.min.js", parameters={}
+2024-06-05 16:08:45.756 DEBUG 18524 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/plugins/layer/layer.js", parameters={}
+2024-06-05 16:08:45.756 DEBUG 18524 --- [http-nio-8080-exec-4] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/static/", "classpath:/views/", "file:/root/workspace/fileimg/", "/"]
+2024-06-05 16:08:45.756 DEBUG 18524 --- [http-nio-8080-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/static/", "classpath:/views/", "file:/root/workspace/fileimg/", "/"]
+2024-06-05 16:08:45.760 DEBUG 18524 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-05 16:08:45.763 DEBUG 18524 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-05 16:08:45.763 DEBUG 18524 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-05 16:08:45.763 DEBUG 18524 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-05 16:08:45.763 DEBUG 18524 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-05 16:08:45.763 DEBUG 18524 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-05 16:08:45.765 DEBUG 18524 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/plugins/bootstrap-table/bootstrap-table.min.js", parameters={}
+2024-06-05 16:08:45.765 DEBUG 18524 --- [http-nio-8080-exec-6] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/static/", "classpath:/views/", "file:/root/workspace/fileimg/", "/"]
+2024-06-05 16:08:45.768 DEBUG 18524 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/plugins/jqfileupload/js/vendor/jquery.ui.widget.js", parameters={}
+2024-06-05 16:08:45.768 DEBUG 18524 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/js/app.js", parameters={}
+2024-06-05 16:08:45.768 DEBUG 18524 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/js/admin/common.js", parameters={}
+2024-06-05 16:08:45.768 DEBUG 18524 --- [http-nio-8080-exec-8] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/static/", "classpath:/views/", "file:/root/workspace/fileimg/", "/"]
+2024-06-05 16:08:45.768 DEBUG 18524 --- [http-nio-8080-exec-5] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/static/", "classpath:/views/", "file:/root/workspace/fileimg/", "/"]
+2024-06-05 16:08:45.768 DEBUG 18524 --- [http-nio-8080-exec-10] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/static/", "classpath:/views/", "file:/root/workspace/fileimg/", "/"]
+2024-06-05 16:08:45.769 DEBUG 18524 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/plugins/jqfileupload/js/jquery.fileupload.js", parameters={}
+2024-06-05 16:08:45.769 DEBUG 18524 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/js/bootstrap/bootstrap-table-zh-CN.js", parameters={}
+2024-06-05 16:08:45.769 DEBUG 18524 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-05 16:08:45.770 DEBUG 18524 --- [http-nio-8080-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/static/", "classpath:/views/", "file:/root/workspace/fileimg/", "/"]
+2024-06-05 16:08:45.770 DEBUG 18524 --- [http-nio-8080-exec-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/static/", "classpath:/views/", "file:/root/workspace/fileimg/", "/"]
+2024-06-05 16:08:45.773 DEBUG 18524 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-05 16:08:45.773 DEBUG 18524 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-05 16:08:45.773 DEBUG 18524 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-05 16:08:45.774 DEBUG 18524 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-05 16:08:45.774 DEBUG 18524 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-05 16:08:45.775 DEBUG 18524 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/js/admin/sys/enterprice.js", parameters={}
+2024-06-05 16:08:45.777 DEBUG 18524 --- [http-nio-8080-exec-9] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/static/", "classpath:/views/", "file:/root/workspace/fileimg/", "/"]
+2024-06-05 16:08:45.779 DEBUG 18524 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-05 16:08:45.916 DEBUG 18524 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/layuiadmin/config.js", parameters={}
+2024-06-05 16:08:45.917 DEBUG 18524 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/layui/lay/modules/layer.js", parameters={}
+2024-06-05 16:08:45.917 DEBUG 18524 --- [http-nio-8080-exec-4] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/static/", "classpath:/views/", "file:/root/workspace/fileimg/", "/"]
+2024-06-05 16:08:45.917 DEBUG 18524 --- [http-nio-8080-exec-7] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/static/", "classpath:/views/", "file:/root/workspace/fileimg/", "/"]
+2024-06-05 16:08:45.921 DEBUG 18524 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/plugins/layer/skin/default/layer.css?v=3.0.11110", parameters={masked}
+2024-06-05 16:08:45.922 DEBUG 18524 --- [http-nio-8080-exec-3] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/static/", "classpath:/views/", "file:/root/workspace/fileimg/", "/"]
+2024-06-05 16:08:45.927 DEBUG 18524 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-05 16:08:45.935 DEBUG 18524 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-05 16:08:45.954 DEBUG 18524 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-05 16:08:46.090 DEBUG 18524 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/layui/css/modules/layer/default/layer.css?v=3.1.1", parameters={masked}
+2024-06-05 16:08:46.090 DEBUG 18524 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/layui/lay/modules/element.js", parameters={}
+2024-06-05 16:08:46.091 DEBUG 18524 --- [http-nio-8080-exec-5] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/static/", "classpath:/views/", "file:/root/workspace/fileimg/", "/"]
+2024-06-05 16:08:46.091 DEBUG 18524 --- [http-nio-8080-exec-6] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/static/", "classpath:/views/", "file:/root/workspace/fileimg/", "/"]
+2024-06-05 16:08:46.108 DEBUG 18524 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-05 16:08:46.121 DEBUG 18524 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-05 16:08:46.326 DEBUG 18524 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/sys/highLightTitle.png", parameters={}
+2024-06-05 16:08:46.327 DEBUG 18524 --- [http-nio-8080-exec-8] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/static/", "classpath:/views/", "file:/root/workspace/fileimg/", "/"]
+2024-06-05 16:08:46.330 DEBUG 18524 --- [http-nio-8080-exec-8] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2024-06-05 16:08:46.330 DEBUG 18524 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2024-06-05 16:08:46.330 DEBUG 18524 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2024-06-05 16:08:46.331 DEBUG 18524 --- [http-nio-8080-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2024-06-05 16:08:46.331 DEBUG 18524 --- [http-nio-8080-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2024-06-05 16:08:46.331 DEBUG 18524 --- [http-nio-8080-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Wed Jun 05 16:08:46 CST 2024, status=404, error=Not Found, message=No message available,  (truncated)...]
+2024-06-05 16:08:46.332 DEBUG 18524 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2024-06-05 16:08:46.401 DEBUG 18524 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : POST "/sys/getSessionValue", parameters={}
+2024-06-05 16:08:46.401 DEBUG 18524 --- [http-nio-8080-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.modules.sys.controller.SysLoginController#getSessionValue(HttpSession)
+2024-06-05 16:08:46.402  INFO 18524 --- [http-nio-8080-exec-10] com.modules.sys.aop.AopLog               : URL : http://localhost:8080/sys/getSessionValue
+2024-06-05 16:08:46.402  INFO 18524 --- [http-nio-8080-exec-10] com.modules.sys.aop.AopLog               : HTTP方法 : POST
+2024-06-05 16:08:46.402  INFO 18524 --- [http-nio-8080-exec-10] com.modules.sys.aop.AopLog               : IP地址 : 0:0:0:0:0:0:0:1
+2024-06-05 16:08:46.402  INFO 18524 --- [http-nio-8080-exec-10] com.modules.sys.aop.AopLog               : 类的方法 : com.modules.sys.controller.SysLoginController.getSessionValue
+2024-06-05 16:08:46.402  INFO 18524 --- [http-nio-8080-exec-10] com.modules.sys.aop.AopLog               : 参数 : null
+2024-06-05 16:08:46.402  INFO 18524 --- [http-nio-8080-exec-10] com.modules.sys.aop.AopLog               : 应答值 : {code=0, sessionValue=领导人员}
+2024-06-05 16:08:46.402  INFO 18524 --- [http-nio-8080-exec-10] com.modules.sys.aop.AopLog               : 费时: 0ms
+2024-06-05 16:08:46.402 DEBUG 18524 --- [http-nio-8080-exec-10] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/javascript, */*;q=0.01] and supported [application/json, application/*+json, application/json, application/*+json]
+2024-06-05 16:08:46.402 DEBUG 18524 --- [http-nio-8080-exec-10] m.m.a.RequestResponseBodyMethodProcessor : Writing [{code=0, sessionValue=领导人员}]
+2024-06-05 16:08:46.403 DEBUG 18524 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-05 16:08:46.452 DEBUG 18524 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : POST "/enterprisetbcontroller/getList", parameters={}
+2024-06-05 16:08:46.452 DEBUG 18524 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.modules.sys.controller.power.EnterpriseTbController#getList(Map, HttpSession)
+2024-06-05 16:08:46.476 DEBUG 18524 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/layui/lay/modules/util.js", parameters={}
+2024-06-05 16:08:46.476 DEBUG 18524 --- [http-nio-8080-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/static/", "classpath:/views/", "file:/root/workspace/fileimg/", "/"]
+2024-06-05 16:08:46.484 DEBUG 18524 --- [http-nio-8080-exec-1] c.m.sys.dao.enterpriseTbMapper.queryAll  : ==>  Preparing: select id, number, company, shares, content from enterprise_tb order by id desc limit ?, ? 
+2024-06-05 16:08:46.486 DEBUG 18524 --- [http-nio-8080-exec-1] c.m.sys.dao.enterpriseTbMapper.queryAll  : ==> Parameters: 0(Integer), 10(Integer)
+2024-06-05 16:08:46.496 DEBUG 18524 --- [http-nio-8080-exec-1] c.m.sys.dao.enterpriseTbMapper.queryAll  : <==      Total: 5
+2024-06-05 16:08:46.496 DEBUG 18524 --- [http-nio-8080-exec-1] c.m.sys.dao.enterpriseTbMapper.countAll  : ==>  Preparing: select count(1) from enterprise_tb 
+2024-06-05 16:08:46.496 DEBUG 18524 --- [http-nio-8080-exec-1] c.m.sys.dao.enterpriseTbMapper.countAll  : ==> Parameters: 
+2024-06-05 16:08:46.497 DEBUG 18524 --- [http-nio-8080-exec-1] c.m.sys.dao.enterpriseTbMapper.countAll  : <==      Total: 1
+2024-06-05 16:08:46.498 DEBUG 18524 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-05 16:08:46.498 DEBUG 18524 --- [http-nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/javascript, */*;q=0.01] and supported [application/json, application/*+json, application/json, application/*+json]
+2024-06-05 16:08:46.498 DEBUG 18524 --- [http-nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Writing [{total=5, code=0, rows=[enterpriseTb{id=5, number=5, company='远达环保', shares='555555', content='远达环保股 (truncated)...]
+2024-06-05 16:08:46.509 DEBUG 18524 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-05 16:08:46.527 DEBUG 18524 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/img/frontH5/enterprice1.jpg", parameters={}
+2024-06-05 16:08:46.527 DEBUG 18524 --- [http-nio-8080-exec-9] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/static/", "classpath:/views/", "file:/root/workspace/fileimg/", "/"]
+2024-06-05 16:08:46.534 DEBUG 18524 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-05 16:08:46.560 DEBUG 18524 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/layuiadmin/lib/admin.js", parameters={}
+2024-06-05 16:08:46.561 DEBUG 18524 --- [http-nio-8080-exec-3] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/static/", "classpath:/views/", "file:/root/workspace/fileimg/", "/"]
+2024-06-05 16:08:46.582 DEBUG 18524 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-05 16:08:46.604 DEBUG 18524 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/layuiadmin/lib/view.js", parameters={}
+2024-06-05 16:08:46.605 DEBUG 18524 --- [http-nio-8080-exec-4] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/static/", "classpath:/views/", "file:/root/workspace/fileimg/", "/"]
+2024-06-05 16:08:46.629 DEBUG 18524 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-05 16:08:46.663 DEBUG 18524 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/layuiadmin/modules/common.js", parameters={}
+2024-06-05 16:08:46.664 DEBUG 18524 --- [http-nio-8080-exec-7] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/static/", "classpath:/views/", "file:/root/workspace/fileimg/", "/"]
+2024-06-05 16:08:46.675 DEBUG 18524 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-05 16:08:47.398 DEBUG 18524 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/sys/adminView", parameters={}
+2024-06-05 16:08:47.399 DEBUG 18524 --- [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.modules.sys.controller.ViewController#adminView()
+2024-06-05 16:08:47.399  INFO 18524 --- [http-nio-8080-exec-6] com.modules.sys.aop.AopLog               : URL : http://localhost:8080/sys/adminView
+2024-06-05 16:08:47.399  INFO 18524 --- [http-nio-8080-exec-6] com.modules.sys.aop.AopLog               : HTTP方法 : GET
+2024-06-05 16:08:47.399  INFO 18524 --- [http-nio-8080-exec-6] com.modules.sys.aop.AopLog               : IP地址 : 0:0:0:0:0:0:0:1
+2024-06-05 16:08:47.399  INFO 18524 --- [http-nio-8080-exec-6] com.modules.sys.aop.AopLog               : 类的方法 : com.modules.sys.controller.ViewController.adminView
+2024-06-05 16:08:47.399  INFO 18524 --- [http-nio-8080-exec-6] com.modules.sys.aop.AopLog               : 参数 : null
+2024-06-05 16:08:47.399  INFO 18524 --- [http-nio-8080-exec-6] com.modules.sys.aop.AopLog               : 应答值 : /sys/enterprice.html
+2024-06-05 16:08:47.399  INFO 18524 --- [http-nio-8080-exec-6] com.modules.sys.aop.AopLog               : 费时: 0ms
+2024-06-05 16:08:47.405 DEBUG 18524 --- [http-nio-8080-exec-6] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.7, */*;q=0.8]
+2024-06-05 16:08:47.405 DEBUG 18524 --- [http-nio-8080-exec-6] o.s.w.servlet.view.InternalResourceView  : View name '/sys/enterprice.html', model {}
+2024-06-05 16:08:47.405 DEBUG 18524 --- [http-nio-8080-exec-6] o.s.w.servlet.view.InternalResourceView  : Forwarding to [/sys/enterprice.html]
+2024-06-05 16:08:47.406 DEBUG 18524 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : "FORWARD" dispatch for GET "/sys/enterprice.html", parameters={}
+2024-06-05 16:08:47.406 DEBUG 18524 --- [http-nio-8080-exec-6] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/static/", "classpath:/views/", "file:/root/workspace/fileimg/", "/"]
+2024-06-05 16:08:47.435 DEBUG 18524 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Exiting from "FORWARD" dispatch, status 200
+2024-06-05 16:08:47.435 DEBUG 18524 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-05 16:08:47.456 DEBUG 18524 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/css/bootstrap.min.css", parameters={}
+2024-06-05 16:08:47.457 DEBUG 18524 --- [http-nio-8080-exec-5] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/static/", "classpath:/views/", "file:/root/workspace/fileimg/", "/"]
+2024-06-05 16:08:47.457 DEBUG 18524 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/css/font-awesome.min.css", parameters={}
+2024-06-05 16:08:47.457 DEBUG 18524 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/css/AdminLTE.min.css", parameters={}
+2024-06-05 16:08:47.457 DEBUG 18524 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/css/all-skins.min.css", parameters={}
+2024-06-05 16:08:47.458 DEBUG 18524 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/plugins/bootstrap-table/bootstrap-table.min.css", parameters={}
+2024-06-05 16:08:47.458 DEBUG 18524 --- [http-nio-8080-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/static/", "classpath:/views/", "file:/root/workspace/fileimg/", "/"]
+2024-06-05 16:08:47.458 DEBUG 18524 --- [http-nio-8080-exec-8] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/static/", "classpath:/views/", "file:/root/workspace/fileimg/", "/"]
+2024-06-05 16:08:47.458 DEBUG 18524 --- [http-nio-8080-exec-10] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/static/", "classpath:/views/", "file:/root/workspace/fileimg/", "/"]
+2024-06-05 16:08:47.458 DEBUG 18524 --- [http-nio-8080-exec-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/static/", "classpath:/views/", "file:/root/workspace/fileimg/", "/"]
+2024-06-05 16:08:47.460 DEBUG 18524 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/css/main.css", parameters={}
+2024-06-05 16:08:47.461 DEBUG 18524 --- [http-nio-8080-exec-9] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/static/", "classpath:/views/", "file:/root/workspace/fileimg/", "/"]
+2024-06-05 16:08:47.462 DEBUG 18524 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-05 16:08:47.463 DEBUG 18524 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-05 16:08:47.464 DEBUG 18524 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-05 16:08:47.464 DEBUG 18524 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-05 16:08:47.465 DEBUG 18524 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-05 16:08:47.465 DEBUG 18524 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-05 16:08:47.469 DEBUG 18524 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/js/vue.js", parameters={}
+2024-06-05 16:08:47.471 DEBUG 18524 --- [http-nio-8080-exec-3] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/static/", "classpath:/views/", "file:/root/workspace/fileimg/", "/"]
+2024-06-05 16:08:47.471 DEBUG 18524 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/js/jquery.min.js", parameters={}
+2024-06-05 16:08:47.471 DEBUG 18524 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/js/router.js", parameters={}
+2024-06-05 16:08:47.471 DEBUG 18524 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/js/bootstrap.min.js", parameters={}
+2024-06-05 16:08:47.471 DEBUG 18524 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/js/vue.min.js", parameters={}
+2024-06-05 16:08:47.472 DEBUG 18524 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/plugins/layer/layer.js", parameters={}
+2024-06-05 16:08:47.472 DEBUG 18524 --- [http-nio-8080-exec-4] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/static/", "classpath:/views/", "file:/root/workspace/fileimg/", "/"]
+2024-06-05 16:08:47.472 DEBUG 18524 --- [http-nio-8080-exec-6] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/static/", "classpath:/views/", "file:/root/workspace/fileimg/", "/"]
+2024-06-05 16:08:47.472 DEBUG 18524 --- [http-nio-8080-exec-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/static/", "classpath:/views/", "file:/root/workspace/fileimg/", "/"]
+2024-06-05 16:08:47.472 DEBUG 18524 --- [http-nio-8080-exec-7] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/static/", "classpath:/views/", "file:/root/workspace/fileimg/", "/"]
+2024-06-05 16:08:47.472 DEBUG 18524 --- [http-nio-8080-exec-5] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/static/", "classpath:/views/", "file:/root/workspace/fileimg/", "/"]
+2024-06-05 16:08:47.475 DEBUG 18524 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-05 16:08:47.477 DEBUG 18524 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-05 16:08:47.478 DEBUG 18524 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-05 16:08:47.478 DEBUG 18524 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-05 16:08:47.478 DEBUG 18524 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-05 16:08:47.478 DEBUG 18524 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-05 16:08:47.479 DEBUG 18524 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/plugins/bootstrap-table/bootstrap-table.min.js", parameters={}
+2024-06-05 16:08:47.480 DEBUG 18524 --- [http-nio-8080-exec-8] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/static/", "classpath:/views/", "file:/root/workspace/fileimg/", "/"]
+2024-06-05 16:08:47.480 DEBUG 18524 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/js/app.js", parameters={}
+2024-06-05 16:08:47.481 DEBUG 18524 --- [http-nio-8080-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/static/", "classpath:/views/", "file:/root/workspace/fileimg/", "/"]
+2024-06-05 16:08:47.482 DEBUG 18524 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/plugins/jqfileupload/js/vendor/jquery.ui.widget.js", parameters={}
+2024-06-05 16:08:47.483 DEBUG 18524 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/js/admin/common.js", parameters={}
+2024-06-05 16:08:47.483 DEBUG 18524 --- [http-nio-8080-exec-10] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/static/", "classpath:/views/", "file:/root/workspace/fileimg/", "/"]
+2024-06-05 16:08:47.483 DEBUG 18524 --- [http-nio-8080-exec-9] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/static/", "classpath:/views/", "file:/root/workspace/fileimg/", "/"]
+2024-06-05 16:08:47.483 DEBUG 18524 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-05 16:08:47.483 DEBUG 18524 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-05 16:08:47.485 DEBUG 18524 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/plugins/jqfileupload/js/jquery.fileupload.js", parameters={}
+2024-06-05 16:08:47.485 DEBUG 18524 --- [http-nio-8080-exec-5] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/static/", "classpath:/views/", "file:/root/workspace/fileimg/", "/"]
+2024-06-05 16:08:47.485 DEBUG 18524 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/js/bootstrap/bootstrap-table-zh-CN.js", parameters={}
+2024-06-05 16:08:47.486 DEBUG 18524 --- [http-nio-8080-exec-6] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/static/", "classpath:/views/", "file:/root/workspace/fileimg/", "/"]
+2024-06-05 16:08:47.487 DEBUG 18524 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-05 16:08:47.487 DEBUG 18524 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-05 16:08:47.488 DEBUG 18524 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-05 16:08:47.488 DEBUG 18524 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-05 16:08:47.490 DEBUG 18524 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/js/admin/sys/enterprice.js", parameters={}
+2024-06-05 16:08:47.491 DEBUG 18524 --- [http-nio-8080-exec-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/static/", "classpath:/views/", "file:/root/workspace/fileimg/", "/"]
+2024-06-05 16:08:47.495 DEBUG 18524 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-05 16:08:47.515 DEBUG 18524 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/plugins/layer/skin/default/layer.css?v=3.0.11110", parameters={masked}
+2024-06-05 16:08:47.515 DEBUG 18524 --- [http-nio-8080-exec-4] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/static/", "classpath:/views/", "file:/root/workspace/fileimg/", "/"]
+2024-06-05 16:08:47.518 DEBUG 18524 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-05 16:08:47.533 DEBUG 18524 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/fonts/fontawesome-webfont.woff2?v=4.7.0", parameters={masked}
+2024-06-05 16:08:47.534 DEBUG 18524 --- [http-nio-8080-exec-7] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/static/", "classpath:/views/", "file:/root/workspace/fileimg/", "/"]
+2024-06-05 16:08:47.536 DEBUG 18524 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-05 16:08:47.558 DEBUG 18524 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/enterprisetbcontroller/list?page=1&limit=12&adminName=&_=1717574927508", parameters={masked}
+2024-06-05 16:08:47.558 DEBUG 18524 --- [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.modules.sys.controller.power.EnterpriseTbController#list(Map, HttpSession)
+2024-06-05 16:08:47.559 DEBUG 18524 --- [http-nio-8080-exec-3] c.m.sys.dao.enterpriseTbMapper.queryAll  : ==>  Preparing: select id, number, company, shares, content from enterprise_tb order by id desc limit ?, ? 
+2024-06-05 16:08:47.559 DEBUG 18524 --- [http-nio-8080-exec-3] c.m.sys.dao.enterpriseTbMapper.queryAll  : ==> Parameters: 0(Integer), 12(Integer)
+2024-06-05 16:08:47.561 DEBUG 18524 --- [http-nio-8080-exec-3] c.m.sys.dao.enterpriseTbMapper.queryAll  : <==      Total: 5
+2024-06-05 16:08:47.562 DEBUG 18524 --- [http-nio-8080-exec-3] c.m.sys.dao.enterpriseTbMapper.countAll  : ==>  Preparing: select count(1) from enterprise_tb 
+2024-06-05 16:08:47.562 DEBUG 18524 --- [http-nio-8080-exec-3] c.m.sys.dao.enterpriseTbMapper.countAll  : ==> Parameters: 
+2024-06-05 16:08:47.563 DEBUG 18524 --- [http-nio-8080-exec-3] c.m.sys.dao.enterpriseTbMapper.countAll  : <==      Total: 1
+2024-06-05 16:08:47.563 DEBUG 18524 --- [http-nio-8080-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/javascript, */*;q=0.01] and supported [application/json, application/*+json, application/json, application/*+json]
+2024-06-05 16:08:47.564 DEBUG 18524 --- [http-nio-8080-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Writing [{total=5, code=0, rows=[enterpriseTb{id=5, number=5, company='远达环保', shares='555555', content='远达环保股 (truncated)...]
+2024-06-05 16:08:47.564 DEBUG 18524 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-05 16:08:47.577 DEBUG 18524 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : POST "/sys/getSessionValue", parameters={}
+2024-06-05 16:08:47.577 DEBUG 18524 --- [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.modules.sys.controller.SysLoginController#getSessionValue(HttpSession)
+2024-06-05 16:08:47.577  INFO 18524 --- [http-nio-8080-exec-2] com.modules.sys.aop.AopLog               : URL : http://localhost:8080/sys/getSessionValue
+2024-06-05 16:08:47.577  INFO 18524 --- [http-nio-8080-exec-2] com.modules.sys.aop.AopLog               : HTTP方法 : POST
+2024-06-05 16:08:47.577  INFO 18524 --- [http-nio-8080-exec-2] com.modules.sys.aop.AopLog               : IP地址 : 0:0:0:0:0:0:0:1
+2024-06-05 16:08:47.577  INFO 18524 --- [http-nio-8080-exec-2] com.modules.sys.aop.AopLog               : 类的方法 : com.modules.sys.controller.SysLoginController.getSessionValue
+2024-06-05 16:08:47.577  INFO 18524 --- [http-nio-8080-exec-2] com.modules.sys.aop.AopLog               : 参数 : null
+2024-06-05 16:08:47.577  INFO 18524 --- [http-nio-8080-exec-2] com.modules.sys.aop.AopLog               : 应答值 : {code=0, sessionValue=领导人员}
+2024-06-05 16:08:47.577  INFO 18524 --- [http-nio-8080-exec-2] com.modules.sys.aop.AopLog               : 费时: 0ms
+2024-06-05 16:08:47.578 DEBUG 18524 --- [http-nio-8080-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/javascript, */*;q=0.01] and supported [application/json, application/*+json, application/json, application/*+json]
+2024-06-05 16:08:47.578 DEBUG 18524 --- [http-nio-8080-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Writing [{code=0, sessionValue=领导人员}]
+2024-06-05 16:08:47.578 DEBUG 18524 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-05 17:08:11.230  INFO 18524 --- [SessionValidationThread-1] a.s.s.m.AbstractValidatingSessionManager : Validating all active sessions...
+2024-06-05 17:08:11.239  INFO 18524 --- [SessionValidationThread-1] a.s.s.m.AbstractValidatingSessionManager : Finished session validation.  [1] sessions were stopped.
+2024-06-05 18:08:11.235  INFO 18524 --- [SessionValidationThread-1] a.s.s.m.AbstractValidatingSessionManager : Validating all active sessions...
+2024-06-05 18:08:11.235  INFO 18524 --- [SessionValidationThread-1] a.s.s.m.AbstractValidatingSessionManager : Finished session validation.  No sessions were stopped.
+2024-06-05 18:37:15.097 DEBUG 18524 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/sys/governView", parameters={}
+2024-06-05 18:37:15.100 DEBUG 18524 --- [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.modules.sys.controller.ViewController#governView()
+2024-06-05 18:37:15.104  INFO 18524 --- [http-nio-8080-exec-4] com.modules.sys.aop.AopLog               : URL : http://localhost:8080/sys/governView
+2024-06-05 18:37:15.104  INFO 18524 --- [http-nio-8080-exec-4] com.modules.sys.aop.AopLog               : HTTP方法 : GET
+2024-06-05 18:37:15.105  INFO 18524 --- [http-nio-8080-exec-4] com.modules.sys.aop.AopLog               : IP地址 : 0:0:0:0:0:0:0:1
+2024-06-05 18:37:15.105  INFO 18524 --- [http-nio-8080-exec-4] com.modules.sys.aop.AopLog               : 类的方法 : com.modules.sys.controller.ViewController.governView
+2024-06-05 18:37:15.105  INFO 18524 --- [http-nio-8080-exec-4] com.modules.sys.aop.AopLog               : 参数 : null
+2024-06-05 18:37:15.106  INFO 18524 --- [http-nio-8080-exec-4] com.modules.sys.aop.AopLog               : 应答值 : /sys/governView.html
+2024-06-05 18:37:15.107  INFO 18524 --- [http-nio-8080-exec-4] com.modules.sys.aop.AopLog               : 费时: 3ms
+2024-06-05 18:37:15.122 DEBUG 18524 --- [http-nio-8080-exec-4] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.7, */*;q=0.8]
+2024-06-05 18:37:15.122 DEBUG 18524 --- [http-nio-8080-exec-4] o.s.w.servlet.view.InternalResourceView  : View name '/sys/governView.html', model {}
+2024-06-05 18:37:15.122 DEBUG 18524 --- [http-nio-8080-exec-4] o.s.w.servlet.view.InternalResourceView  : Forwarding to [/sys/governView.html]
+2024-06-05 18:37:15.122 DEBUG 18524 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : "FORWARD" dispatch for GET "/sys/governView.html", parameters={}
+2024-06-05 18:37:15.124 DEBUG 18524 --- [http-nio-8080-exec-4] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/static/", "classpath:/views/", "file:/root/workspace/fileimg/", "/"]
+2024-06-05 18:37:15.148 DEBUG 18524 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Exiting from "FORWARD" dispatch, status 200
+2024-06-05 18:37:15.149 DEBUG 18524 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-05 18:37:15.188 DEBUG 18524 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/css/bootstrap.min.css", parameters={}
+2024-06-05 18:37:15.189 DEBUG 18524 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/css/font-awesome.min.css", parameters={}
+2024-06-05 18:37:15.189 DEBUG 18524 --- [http-nio-8080-exec-7] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/static/", "classpath:/views/", "file:/root/workspace/fileimg/", "/"]
+2024-06-05 18:37:15.190 DEBUG 18524 --- [http-nio-8080-exec-3] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/static/", "classpath:/views/", "file:/root/workspace/fileimg/", "/"]
+2024-06-05 18:37:15.190 DEBUG 18524 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/css/AdminLTE.min.css", parameters={}
+2024-06-05 18:37:15.190 DEBUG 18524 --- [http-nio-8080-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/static/", "classpath:/views/", "file:/root/workspace/fileimg/", "/"]
+2024-06-05 18:37:15.192 DEBUG 18524 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/css/all-skins.min.css", parameters={}
+2024-06-05 18:37:15.193 DEBUG 18524 --- [http-nio-8080-exec-10] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/static/", "classpath:/views/", "file:/root/workspace/fileimg/", "/"]
+2024-06-05 18:37:15.194 DEBUG 18524 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-05 18:37:15.194 DEBUG 18524 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-05 18:37:15.194 DEBUG 18524 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/plugins/bootstrap-table/bootstrap-table.min.css", parameters={}
+2024-06-05 18:37:15.194 DEBUG 18524 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/css/main.css", parameters={}
+2024-06-05 18:37:15.195 DEBUG 18524 --- [http-nio-8080-exec-8] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/static/", "classpath:/views/", "file:/root/workspace/fileimg/", "/"]
+2024-06-05 18:37:15.195 DEBUG 18524 --- [http-nio-8080-exec-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/static/", "classpath:/views/", "file:/root/workspace/fileimg/", "/"]
+2024-06-05 18:37:15.196 DEBUG 18524 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-05 18:37:15.199 DEBUG 18524 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-05 18:37:15.201 DEBUG 18524 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-05 18:37:15.201 DEBUG 18524 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-05 18:37:15.201 DEBUG 18524 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/js/vue.min.js", parameters={}
+2024-06-05 18:37:15.201 DEBUG 18524 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/js/vue.js", parameters={}
+2024-06-05 18:37:15.201 DEBUG 18524 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/js/jquery.min.js", parameters={}
+2024-06-05 18:37:15.201 DEBUG 18524 --- [http-nio-8080-exec-5] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/static/", "classpath:/views/", "file:/root/workspace/fileimg/", "/"]
+2024-06-05 18:37:15.201 DEBUG 18524 --- [http-nio-8080-exec-9] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/static/", "classpath:/views/", "file:/root/workspace/fileimg/", "/"]
+2024-06-05 18:37:15.201 DEBUG 18524 --- [http-nio-8080-exec-6] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/static/", "classpath:/views/", "file:/root/workspace/fileimg/", "/"]
+2024-06-05 18:37:15.205 DEBUG 18524 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/js/router.js", parameters={}
+2024-06-05 18:37:15.205 DEBUG 18524 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/js/bootstrap.min.js", parameters={}
+2024-06-05 18:37:15.206 DEBUG 18524 --- [http-nio-8080-exec-3] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/static/", "classpath:/views/", "file:/root/workspace/fileimg/", "/"]
+2024-06-05 18:37:15.206 DEBUG 18524 --- [http-nio-8080-exec-4] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/static/", "classpath:/views/", "file:/root/workspace/fileimg/", "/"]
+2024-06-05 18:37:15.206 DEBUG 18524 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/plugins/layer/layer.js", parameters={}
+2024-06-05 18:37:15.207 DEBUG 18524 --- [http-nio-8080-exec-7] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/static/", "classpath:/views/", "file:/root/workspace/fileimg/", "/"]
+2024-06-05 18:37:15.209 DEBUG 18524 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-05 18:37:15.209 DEBUG 18524 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-05 18:37:15.211 DEBUG 18524 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-05 18:37:15.211 DEBUG 18524 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-05 18:37:15.211 DEBUG 18524 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-05 18:37:15.211 DEBUG 18524 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-05 18:37:15.213 DEBUG 18524 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/plugins/bootstrap-table/bootstrap-table.min.js", parameters={}
+2024-06-05 18:37:15.214 DEBUG 18524 --- [http-nio-8080-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/static/", "classpath:/views/", "file:/root/workspace/fileimg/", "/"]
+2024-06-05 18:37:15.214 DEBUG 18524 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/js/app.js", parameters={}
+2024-06-05 18:37:15.214 DEBUG 18524 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/js/admin/common.js", parameters={}
+2024-06-05 18:37:15.214 DEBUG 18524 --- [http-nio-8080-exec-10] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/static/", "classpath:/views/", "file:/root/workspace/fileimg/", "/"]
+2024-06-05 18:37:15.215 DEBUG 18524 --- [http-nio-8080-exec-8] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/static/", "classpath:/views/", "file:/root/workspace/fileimg/", "/"]
+2024-06-05 18:37:15.218 DEBUG 18524 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/plugins/jqfileupload/js/vendor/jquery.ui.widget.js", parameters={}
+2024-06-05 18:37:15.219 DEBUG 18524 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-05 18:37:15.219 DEBUG 18524 --- [http-nio-8080-exec-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/static/", "classpath:/views/", "file:/root/workspace/fileimg/", "/"]
+2024-06-05 18:37:15.219 DEBUG 18524 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/plugins/jqfileupload/js/jquery.fileupload.js", parameters={}
+2024-06-05 18:37:15.220 DEBUG 18524 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/js/bootstrap/bootstrap-table-zh-CN.js", parameters={}
+2024-06-05 18:37:15.220 DEBUG 18524 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-05 18:37:15.220 DEBUG 18524 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-05 18:37:15.220 DEBUG 18524 --- [http-nio-8080-exec-5] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/static/", "classpath:/views/", "file:/root/workspace/fileimg/", "/"]
+2024-06-05 18:37:15.220 DEBUG 18524 --- [http-nio-8080-exec-6] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/static/", "classpath:/views/", "file:/root/workspace/fileimg/", "/"]
+2024-06-05 18:37:15.222 DEBUG 18524 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-05 18:37:15.223 DEBUG 18524 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-05 18:37:15.223 DEBUG 18524 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-05 18:37:15.224 DEBUG 18524 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/js/admin/sys/governView.js", parameters={}
+2024-06-05 18:37:15.225 DEBUG 18524 --- [http-nio-8080-exec-7] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/static/", "classpath:/views/", "file:/root/workspace/fileimg/", "/"]
+2024-06-05 18:37:15.241 DEBUG 18524 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-05 18:37:15.326 DEBUG 18524 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/plugins/layer/skin/default/layer.css?v=3.0.11110", parameters={masked}
+2024-06-05 18:37:15.327 DEBUG 18524 --- [http-nio-8080-exec-9] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/static/", "classpath:/views/", "file:/root/workspace/fileimg/", "/"]
+2024-06-05 18:37:15.332 DEBUG 18524 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-05 18:37:15.398 DEBUG 18524 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/governtbcontroller/list?page=1&limit=12&_=1717583835308", parameters={masked}
+2024-06-05 18:37:15.398 DEBUG 18524 --- [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.modules.sys.controller.power.GovernTbController#list(Map, HttpSession)
+2024-06-05 18:37:15.398 DEBUG 18524 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/fonts/fontawesome-webfont.woff2?v=4.7.0", parameters={masked}
+2024-06-05 18:37:15.399 DEBUG 18524 --- [http-nio-8080-exec-4] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/static/", "classpath:/views/", "file:/root/workspace/fileimg/", "/"]
+2024-06-05 18:37:15.402 DEBUG 18524 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-05 18:37:15.414 DEBUG 18524 --- [http-nio-8080-exec-3] c.m.sys.dao.GovernTbMapper.queryAll      : ==>  Preparing: select id, enterprise_id, year, trisome_construction, case_disputes, asset_turnover_rate from govern_tb order by year asc limit ?, ? 
+2024-06-05 18:37:15.415 DEBUG 18524 --- [http-nio-8080-exec-3] c.m.sys.dao.GovernTbMapper.queryAll      : ==> Parameters: 0(Integer), 12(Integer)
+2024-06-05 18:37:15.424 DEBUG 18524 --- [http-nio-8080-exec-3] c.m.sys.dao.GovernTbMapper.queryAll      : <==      Total: 12
+2024-06-05 18:37:15.425 DEBUG 18524 --- [http-nio-8080-exec-3] c.m.sys.dao.GovernTbMapper.countAll      : ==>  Preparing: select count(1) from govern_tb 
+2024-06-05 18:37:15.425 DEBUG 18524 --- [http-nio-8080-exec-3] c.m.sys.dao.GovernTbMapper.countAll      : ==> Parameters: 
+2024-06-05 18:37:15.427 DEBUG 18524 --- [http-nio-8080-exec-3] c.m.sys.dao.GovernTbMapper.countAll      : <==      Total: 1
+2024-06-05 18:37:15.428 DEBUG 18524 --- [http-nio-8080-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/javascript, */*;q=0.01] and supported [application/json, application/*+json, application/json, application/*+json]
+2024-06-05 18:37:15.429 DEBUG 18524 --- [http-nio-8080-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Writing [{total=15, code=0, rows=[GovernTb{id=1, enterpriseId=1, year='2020', trisomeConstruction='1', caseDi (truncated)...]
+2024-06-05 18:37:15.435 DEBUG 18524 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-05 18:37:17.201 DEBUG 18524 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/sys/enterpriceRankView", parameters={}
+2024-06-05 18:37:17.202 DEBUG 18524 --- [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.modules.sys.controller.ViewController#enterpriceRankView()
+2024-06-05 18:37:17.202  INFO 18524 --- [http-nio-8080-exec-2] com.modules.sys.aop.AopLog               : URL : http://localhost:8080/sys/enterpriceRankView
+2024-06-05 18:37:17.202  INFO 18524 --- [http-nio-8080-exec-2] com.modules.sys.aop.AopLog               : HTTP方法 : GET
+2024-06-05 18:37:17.202  INFO 18524 --- [http-nio-8080-exec-2] com.modules.sys.aop.AopLog               : IP地址 : 0:0:0:0:0:0:0:1
+2024-06-05 18:37:17.202  INFO 18524 --- [http-nio-8080-exec-2] com.modules.sys.aop.AopLog               : 类的方法 : com.modules.sys.controller.ViewController.enterpriceRankView
+2024-06-05 18:37:17.202  INFO 18524 --- [http-nio-8080-exec-2] com.modules.sys.aop.AopLog               : 参数 : null
+2024-06-05 18:37:17.202  INFO 18524 --- [http-nio-8080-exec-2] com.modules.sys.aop.AopLog               : 应答值 : /sys/enterpriceRankView.html
+2024-06-05 18:37:17.202  INFO 18524 --- [http-nio-8080-exec-2] com.modules.sys.aop.AopLog               : 费时: 0ms
+2024-06-05 18:37:17.206 DEBUG 18524 --- [http-nio-8080-exec-2] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.7, */*;q=0.8]
+2024-06-05 18:37:17.207 DEBUG 18524 --- [http-nio-8080-exec-2] o.s.w.servlet.view.InternalResourceView  : View name '/sys/enterpriceRankView.html', model {}
+2024-06-05 18:37:17.207 DEBUG 18524 --- [http-nio-8080-exec-2] o.s.w.servlet.view.InternalResourceView  : Forwarding to [/sys/enterpriceRankView.html]
+2024-06-05 18:37:17.207 DEBUG 18524 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : "FORWARD" dispatch for GET "/sys/enterpriceRankView.html", parameters={}
+2024-06-05 18:37:17.207 DEBUG 18524 --- [http-nio-8080-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/static/", "classpath:/views/", "file:/root/workspace/fileimg/", "/"]
+2024-06-05 18:37:17.232 DEBUG 18524 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Exiting from "FORWARD" dispatch, status 200
+2024-06-05 18:37:17.233 DEBUG 18524 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-05 18:37:19.096 DEBUG 18524 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/enterprisetbcontroller/enterpriseRank?year=", parameters={masked}
+2024-06-05 18:37:19.096 DEBUG 18524 --- [http-nio-8080-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.modules.sys.controller.power.EnterpriseTbController#enterpriseRank(Map)
+2024-06-05 18:37:19.097 DEBUG 18524 --- [http-nio-8080-exec-8] c.m.s.dao.enterpriseTbMapper.selectAll   : ==>  Preparing: select id, number, company, shares, content from enterprise_tb order by id asc 
+2024-06-05 18:37:19.097 DEBUG 18524 --- [http-nio-8080-exec-8] c.m.s.dao.enterpriseTbMapper.selectAll   : ==> Parameters: 
+2024-06-05 18:37:19.098 DEBUG 18524 --- [http-nio-8080-exec-8] c.m.s.dao.enterpriseTbMapper.selectAll   : <==      Total: 5
+2024-06-05 18:37:19.100 DEBUG 18524 --- [http-nio-8080-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/javascript, */*;q=0.01] and supported [application/json, application/*+json, application/json, application/*+json]
+2024-06-05 18:37:19.100 DEBUG 18524 --- [http-nio-8080-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Writing [{code=0, listReport=[]}]
+2024-06-05 18:37:19.100 DEBUG 18524 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-05 18:37:22.315 DEBUG 18524 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/sys/enterpriceCompreView", parameters={}
+2024-06-05 18:37:22.316 DEBUG 18524 --- [http-nio-8080-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.modules.sys.controller.ViewController#enterpriceCompreView()
+2024-06-05 18:37:22.316  INFO 18524 --- [http-nio-8080-exec-10] com.modules.sys.aop.AopLog               : URL : http://localhost:8080/sys/enterpriceCompreView
+2024-06-05 18:37:22.316  INFO 18524 --- [http-nio-8080-exec-10] com.modules.sys.aop.AopLog               : HTTP方法 : GET
+2024-06-05 18:37:22.316  INFO 18524 --- [http-nio-8080-exec-10] com.modules.sys.aop.AopLog               : IP地址 : 0:0:0:0:0:0:0:1
+2024-06-05 18:37:22.316  INFO 18524 --- [http-nio-8080-exec-10] com.modules.sys.aop.AopLog               : 类的方法 : com.modules.sys.controller.ViewController.enterpriceCompreView
+2024-06-05 18:37:22.316  INFO 18524 --- [http-nio-8080-exec-10] com.modules.sys.aop.AopLog               : 参数 : null
+2024-06-05 18:37:22.316  INFO 18524 --- [http-nio-8080-exec-10] com.modules.sys.aop.AopLog               : 应答值 : /sys/enterpriceCompreView.html
+2024-06-05 18:37:22.316  INFO 18524 --- [http-nio-8080-exec-10] com.modules.sys.aop.AopLog               : 费时: 0ms
+2024-06-05 18:37:22.320 DEBUG 18524 --- [http-nio-8080-exec-10] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.7, */*;q=0.8]
+2024-06-05 18:37:22.320 DEBUG 18524 --- [http-nio-8080-exec-10] o.s.w.servlet.view.InternalResourceView  : View name '/sys/enterpriceCompreView.html', model {}
+2024-06-05 18:37:22.320 DEBUG 18524 --- [http-nio-8080-exec-10] o.s.w.servlet.view.InternalResourceView  : Forwarding to [/sys/enterpriceCompreView.html]
+2024-06-05 18:37:22.320 DEBUG 18524 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : "FORWARD" dispatch for GET "/sys/enterpriceCompreView.html", parameters={}
+2024-06-05 18:37:22.321 DEBUG 18524 --- [http-nio-8080-exec-10] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/static/", "classpath:/views/", "file:/root/workspace/fileimg/", "/"]
+2024-06-05 18:37:22.347 DEBUG 18524 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Exiting from "FORWARD" dispatch, status 200
+2024-06-05 18:37:22.347 DEBUG 18524 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-05 18:37:22.360 DEBUG 18524 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/css/AdminLTE.min.css", parameters={}
+2024-06-05 18:37:22.360 DEBUG 18524 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/css/bootstrap.min.css", parameters={}
+2024-06-05 18:37:22.360 DEBUG 18524 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/css/font-awesome.min.css", parameters={}
+2024-06-05 18:37:22.361 DEBUG 18524 --- [http-nio-8080-exec-5] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/static/", "classpath:/views/", "file:/root/workspace/fileimg/", "/"]
+2024-06-05 18:37:22.361 DEBUG 18524 --- [http-nio-8080-exec-6] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/static/", "classpath:/views/", "file:/root/workspace/fileimg/", "/"]
+2024-06-05 18:37:22.361 DEBUG 18524 --- [http-nio-8080-exec-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/static/", "classpath:/views/", "file:/root/workspace/fileimg/", "/"]
+2024-06-05 18:37:22.361 DEBUG 18524 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/css/all-skins.min.css", parameters={}
+2024-06-05 18:37:22.361 DEBUG 18524 --- [http-nio-8080-exec-7] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/static/", "classpath:/views/", "file:/root/workspace/fileimg/", "/"]
+2024-06-05 18:37:22.361 DEBUG 18524 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/plugins/bootstrap-table/bootstrap-table.min.css", parameters={}
+2024-06-05 18:37:22.361 DEBUG 18524 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/css/main.css", parameters={}
+2024-06-05 18:37:22.362 DEBUG 18524 --- [http-nio-8080-exec-9] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/static/", "classpath:/views/", "file:/root/workspace/fileimg/", "/"]
+2024-06-05 18:37:22.362 DEBUG 18524 --- [http-nio-8080-exec-4] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/static/", "classpath:/views/", "file:/root/workspace/fileimg/", "/"]
+2024-06-05 18:37:22.365 DEBUG 18524 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-05 18:37:22.367 DEBUG 18524 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-05 18:37:22.367 DEBUG 18524 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-05 18:37:22.368 DEBUG 18524 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-05 18:37:22.368 DEBUG 18524 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-05 18:37:22.368 DEBUG 18524 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-05 18:37:22.368 DEBUG 18524 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/js/jquery.min.js", parameters={}
+2024-06-05 18:37:22.369 DEBUG 18524 --- [http-nio-8080-exec-6] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/static/", "classpath:/views/", "file:/root/workspace/fileimg/", "/"]
+2024-06-05 18:37:22.372 DEBUG 18524 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-05 19:08:11.237  INFO 18524 --- [SessionValidationThread-1] a.s.s.m.AbstractValidatingSessionManager : Validating all active sessions...
+2024-06-05 19:08:11.238  INFO 18524 --- [SessionValidationThread-1] a.s.s.m.AbstractValidatingSessionManager : Finished session validation.  [1] sessions were stopped.
+2024-06-05 20:08:11.237  INFO 18524 --- [SessionValidationThread-1] a.s.s.m.AbstractValidatingSessionManager : Validating all active sessions...
+2024-06-05 20:08:11.239  INFO 18524 --- [SessionValidationThread-1] a.s.s.m.AbstractValidatingSessionManager : Finished session validation.  No sessions were stopped.
+2024-06-05 21:08:11.233  INFO 18524 --- [SessionValidationThread-1] a.s.s.m.AbstractValidatingSessionManager : Validating all active sessions...
+2024-06-05 21:08:11.235  INFO 18524 --- [SessionValidationThread-1] a.s.s.m.AbstractValidatingSessionManager : Finished session validation.  No sessions were stopped.
+2024-06-05 22:08:11.228  INFO 18524 --- [SessionValidationThread-1] a.s.s.m.AbstractValidatingSessionManager : Validating all active sessions...
+2024-06-05 22:08:11.228  INFO 18524 --- [SessionValidationThread-1] a.s.s.m.AbstractValidatingSessionManager : Finished session validation.  No sessions were stopped.
+2024-06-05 22:26:12.329  INFO 18524 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2024-06-05 22:26:12.346  INFO 18524 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2024-06-05 22:26:12.348  INFO 18524 --- [SpringContextShutdownHook] a.s.s.m.AbstractValidatingSessionManager : Disabled session validation scheduler.
